@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "id": "component-auto-width",
+  "name": "Component Auto Width",
+  "description": "Automatically fit component widths to exposed control-pin labels without changing their text. Independent successor to the width feature in Automatic Geometry.",
+  "author": "joshua-small",
+  "thumbnail": "catalog/artwork/avitex.ico",
+  "helpUrl": "https://github.com/joshua-small/qsys-component-auto-width"
+}

@@ -6,7 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>Designer.Modules.ComponentAutoWidth</AssemblyName>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <Deterministic>true</Deterministic>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>

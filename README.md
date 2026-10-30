@@ -10,6 +10,8 @@ Only the exact approved Designer 10.5 build is supported. The module retains Cor
 
 Clone [Mods Core](https://github.com/joshua-small/qsys-mods-core) alongside this repository. Build with .NET 10.0.112 and a local `DesignerDir` containing vendor references. Run `dotnet run --project tests/GeometryTests.csproj` on Windows for the synthetic harness; pass the Designer directory for read-only native metadata checks. No vendor binaries are included.
 
+For regressions without WPF, Designer, or vendor references, run the [offline width suite](tests/Offline/README.md). It checks the production hook against synthetic measurements; native rendering and document acceptance remain separate.
+
 Source extracted from qsys-automatic-geometry PR #7 (source checkpoint c5309a2). Source ownership now resides here; no new source license is granted. Third-party license notices and artwork provenance are retained.
 
 ## Geometry update acceptance (2026-10-16)
